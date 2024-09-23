@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "iot-ultron",
+  "private_key_id": "f80d6280188a8ff0f106434df6f6e94f28806e2c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCPr5grFWECH/fz\nlFbOpojTFW7QFgr2Af9eTIJmZqbyxry5dVW0MUv6xvNL5vCERRw9GDhvGelWtq8o\nfNeGYzjPquNe3rqXBYxeAJeXCIP1mrUK7l2WssNl8tF6VJbSYFFsHXG9ZXzANgNt\nT6kSg0+9kullRcRgtnrlqGf60hRKbmIepm7EN3mNH/E/BLO+xUCN9tfuVJ4Z1pHg\n9guAyj1Uf0zok729Mz/ACUjczPpuPhZ/e9K8RQVpGwlGQHLLJXxhL+zBYxFkoHF9\n3a4JqHpXad+RxVc8Gtf2DPRakNSWwPvzV3fnO7B7b1VVl5YOh459AlbuhomlscGx\nWY/jQHi9AgMBAAECggEACJu2MSFBw5UouhDGtptm58aJR1wwDJcIC/KSKWe4VCPb\nRf0lRPtjGEN3wLIK8icLJGSMFP6SFTOIAOlMfEJQ3Vgum7jE/avubJSlKv5D8aCd\nfL8qdOSBgl0Zdwu+/BxFzzALEr6+ykEyKV1evWYyjnf7wFPStRHvAPf66shP647k\nbC98PNwi4fs4iJCB8L8aK/YbHY1ZP4ob8I9TGXc5w1YcQNGIyrswp7TddRQvKHKJ\nMPdMfPj/Rzm1DKn76d1bhJisHIh09QOhDbMGwLu3ARLmOcUvREmUSLl7hSWbyfTq\npzlVOINfS8eqgLlSssOR8gVbPeEg4qADmW6hnIYLQQKBgQDGbIBWZtNaWQP6wC1v\nhiJHXTEe6ov2rINbx9K5thz8+OfTMsUJfhoqlpLBW4CJov+SHs8gRbM+qs6GhMrY\n/8nQwq85c2sNhiE31ZlCKyP0hDk11ARlmhdvjzkYYeHQrRonZG0gD4CCWb91O3fp\nnkQKAYz9B4IhcEONfwHayFX+8QKBgQC5YQBnPDkVnIK6rUhsEGeq8gf2MgY9AUOY\n2wGRVSnsD1vHPRHHEnrm8PyoizXz3xtgLiI/CkLS1Z62BdTBmTN1xC0nXswJr0v+\npqHNiK7VXKlO9bZxsyvRGCU8UaGATPi/d67fbUjq2y+KtQI4AYkKXbqZWWCB9RV5\nBQNVtM/ujQKBgQChmGmodBN6h/Yqt2oJYmb2UZoYgJG+Md7E12bxYbQX/annIXjA\nc1diCcC5Agkbjoiu+rJaqQkCZ17MxMbilOZKQtMraajsmajh7O3kqnecwjZJdUKj\ncCvX6f9osQaTyPX80NfifV1+SxMWqXjN5NuqfnrQ8tVy4BfT23SqNe97MQKBgQCl\nkq0Qh+qYkeT1pSXlVzWwqmJQE9gcjs94bEvXKdC6xfD8YGBLhQb+1ElmpIg43JIP\n8sSlt519wEz0WPrxO8uJqQGHg5UMJWTj+qLT9/voF84k9zPQE+7T4BQJ7wMnnBgk\ns1oetvaExeaNpiRoL37eIl8y7nBTQrq+D6st1sRNVQKBgFZlMBwtWw0mcPECBBJk\nLXE+YeltzLQq9kb8NWLNe7r6PKsIWk09u9ICxw4R7CmFsuG4nx3d+DvIng4MC8t3\np4+eEUXOju9R3Un7WBSIXhUiZGYNC3Z9UUfaB17SVqj3dzqTAdMeH7yUOwcZtted\npAp5StrvEMWhzryE1wSmGDZI\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ioa35@iot-ultron.iam.gserviceaccount.com",
+  "client_id": "108918637213347809951",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ioa35%40iot-ultron.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
