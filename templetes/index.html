@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Dashboard</title>
+    <script>
+        async function fetchData() {
+            try {
+                const response = await fetch('/sensor_data');
+                const data = await response.json();
+                if (response.ok) {
+                    document.getElementById('temp').textContent = data.temperature_c !== null ? `${data.temperature_c} °C` : 'N/A';
+                    document.getElementById('humidity').textContent = data.humidity !== null ? `${data.humidity} %` : 'N/A';
+                    document.getElementById('pressure').textContent = data.pressure !== null ? `${data.pressure.toFixed(2)} hPa` : 'N/A';
+                } else {
+                    console.error('Error fetching data:', data.error);
+                }
+            } catch (error) {
+                console.error('Fetch error:', error);
+            }
+        }
+
+        setInterval(fetchData, 5000); // Fetch data every 5 seconds
+        fetchData(); // Initial fetch
+    </script>
+</head>
+<body>
+    <h1>Sensor Dashboard</h1>
+    <p>Temperature: <span id="temp">Loading...</span></p>
+    <p>Humidity: <span id="humidity">Loading...</span></p>
+    <p>Pressure: <span id="pressure">Loading...</span></p>
+</body>
+</html>
